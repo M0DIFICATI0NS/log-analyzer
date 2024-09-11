@@ -32,11 +32,11 @@ To obtain a local copy of the repository and set it up, please follow these step
      dotnet add package System.DirectoryServices.AccountManagement --version 8.0.0
      ```
   4. Ensure the local path for both exporting and analyzing:
-     ```
+     
      https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/ExportMessageLog.cs#L21
      https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/AnalyzeMessageLog.cs#L14
      https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/AnalyzeMessageLog.cs#L75
-     ```
+     
   3. Run the Project:
      ```
      dotnet run
