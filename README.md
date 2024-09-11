@@ -42,6 +42,12 @@ To obtain a local copy of the repository and set it up, please follow these step
      dotnet run
      ```
 
+# Overview
+MessageLog.csv - user log-ins data retrieved from .\pigetmsg command-line utility with 100k+ records;
+InactiveUsers.csv - script's report based on **MessageLog.csv**
+<img width="100" alt="image" src="https://github.com/user-attachments/assets/75fb2a7b-0d4f-4638-a332-0bafa0a2f632">
+
+
 
 # Contribute
 Any contributions you make are **greatly appreciated**.
