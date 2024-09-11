@@ -15,11 +15,11 @@
 # Getting Started
 To obtain a local copy of the repository and set it up, please follow these steps:
 
-## Software Dependencies
+### Software Dependencies
 * Install .NET SDK 8.0
 * Install C# Dev Kit Extension
 
-## Clone the Repository
+### Clone the Repository
 * Open your terminal or command prompt.
 * Execute the following command, replacing URL with the repository’s URL:
   1. Clone the Repository:
