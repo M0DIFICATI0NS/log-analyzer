@@ -11,7 +11,7 @@ namespace LogAnalyzer
     {
         public static void AnalyzeMessageLog()
         {
-            string filePath = @"C:\Users\qubc\MessageLog.csv";
+            string filePath = @"C:\Users\****\MessageLog.csv";
             var logins = new List<LoginRecord>();
 
             // Read the CSV file
@@ -69,10 +69,10 @@ namespace LogAnalyzer
             // Identify inactive users who haven't logged in within the last month
             var inactiveUsers = latestLogins.Where(l => l.Time < cutoffDate).ToList();
 
-            string ldapDomain = "LDAP://TCOTENNTAD4.gdc0.chevron.net";
+            string ldapDomain = "LDAP://****";
             var adConnection = new ADConnection(ldapDomain);
 
-            string outputFilePath = @"C:\Users\qubc\InactiveUsers.csv";
+            string outputFilePath = @"C:\Users\****\InactiveUsers.csv";
             using (var writer = new StreamWriter(outputFilePath))
             {
                 writer.WriteLine("CAI,Full Name,Email,Supervisor,Last Login Time,Process");
