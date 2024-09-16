@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="https://chevron.sharepoint.com/sites/TCODigital/ProductLines/ProdOptRMWF">
-    <img src="https://chevron.sharepoint.com/sites/TCODigital/ProductLines/ProdOptRMWF/_api/siteiconmanager/getsitelogo?type=%271%27" alt="Logo" width="300px">
-  </a>
-</p>
-
 # About The Project 
 **PI System Log Analyzer** is designed to analyze a large dataset of user login records, which aims to identify inactive users from PI System, and report the result to a formatted .CSV file. The process involves reading, processing, and querying data from both an extracted CSV file from PI Data Archive with command-line utility .\pigetmsg and Active Directory to retrieve an employees' [displayName], [email], [manager] through LDAP IP Protocol. The purpose of the project is to ensure the security and keep the PI System environment clean.
 
@@ -24,7 +18,7 @@ To obtain a local copy of the repository and set it up, please follow these step
 * Execute the following command, replacing URL with the repository’s URL:
   1. Clone the Repository:
      ```
-     git clone https://dev.azure.com/chevron/TCO-PO-ART-REPOS/_git/TCO%20PI%20system%20access%20revisor
+     git clone **Confidential**
      ```
   2. Install dependencies:
      ```
@@ -58,4 +52,4 @@ Sultan Mecheyev - sultan.mecheyev@tengizchevroil.com (maybe already deactivated)
 
 [LinkedIn](www.linkedin.com/in/sultan-mecheyev-3b459a328) - LinkedIn
 
-Project Link: https://dev.azure.com/chevron/TCO-PO-ART-REPOS/_git/TCO%20PI%20system%20access%20revisor
+Project Link: ***Confidential***
