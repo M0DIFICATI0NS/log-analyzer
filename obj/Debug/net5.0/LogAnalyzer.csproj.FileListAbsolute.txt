@@ -1,0 +1,4 @@
+C:\Users\qubc\LogAnalyzer\obj\Debug\net5.0\LogAnalyzer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\qubc\LogAnalyzer\obj\Debug\net5.0\LogAnalyzer.AssemblyInfoInputs.cache
+C:\Users\qubc\LogAnalyzer\obj\Debug\net5.0\LogAnalyzer.AssemblyInfo.cs
+C:\Users\qubc\LogAnalyzer\obj\Debug\net5.0\LogAnalyzer.csproj.CoreCompileInputs.cache
