@@ -48,8 +48,4 @@ InactiveUsers.csv - script's report based on **MessageLog.csv**
 Any contributions you make are **greatly appreciated**.
 
 # Contact
-Sultan Mecheyev - sultan.mecheyev@tengizchevroil.com (maybe already deactivated)
-
-[LinkedIn](www.linkedin.com/in/sultan-mecheyev-3b459a328) - LinkedIn
-
-Project Link: ***Confidential***
+[LinkedIn](www.linkedin.com/in/sultan-mecheyev-3b459a328)
