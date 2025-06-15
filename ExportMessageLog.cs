@@ -8,7 +8,7 @@ namespace LogAnalyzer
     {
         public static void ExportMessageLog()
         {
-            string remoteNode = "****";
+            string remoteNode = {ipAddress};
             string authenticationMethod = "-Windows";
 
             string startTime = "\"1-May-2024\"";
@@ -16,9 +16,9 @@ namespace LogAnalyzer
 
             string messageId = "7082";
 
-            string pigetmsgDirectory = @"C:\Program Files (x86)\PIPC\adm";
+            string pigetmsgDirectory = @{path};
 
-            string pigetmsgSavePath = @"C:\Users\****\MessageLog.csv";
+            string pigetmsgSavePath = @{path};
 
             string command = ".\\pigetmsg";
             string arguments = $"-remote -node {remoteNode} {authenticationMethod} -st {startTime} -et {endTime} -id {messageId} -of {pigetmsgSavePath} -fc";
