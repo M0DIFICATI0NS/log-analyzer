@@ -27,9 +27,9 @@ To obtain a local copy of the repository and set it up, please follow these step
      ```
   4. Ensure the local path for both exporting and analyzing:
      
-     https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/ExportMessageLog.cs#L21
-     https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/AnalyzeMessageLog.cs#L14
-     https://github.com/M0DIFICATI0NS/log-analyzer/blob/b9de0dba754ab694f68c1ba592da235d10dd2249/AnalyzeMessageLog.cs#L75
+     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/ExportMessageLog.cs#L21
+     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/AnalyzeMessageLog.cs#L14
+     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/AnalyzeMessageLog.cs#L75
      
   3. Run the Project:
      ```
