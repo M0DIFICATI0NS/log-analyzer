@@ -11,7 +11,7 @@ namespace LogAnalyzer
     {
         public static void AnalyzeMessageLog()
         {
-            string filePath = @"C:\Users\****\MessageLog.csv";
+            string filePath = @{path};
             var logins = new List<LoginRecord>();
 
             // Read the CSV file
@@ -72,7 +72,7 @@ namespace LogAnalyzer
             string ldapDomain = "LDAP://****";
             var adConnection = new ADConnection(ldapDomain);
 
-            string outputFilePath = @"C:\Users\****\InactiveUsers.csv";
+            string outputFilePath = @{path};
             using (var writer = new StreamWriter(outputFilePath))
             {
                 writer.WriteLine("CAI,Full Name,Email,Supervisor,Last Login Time,Process");
