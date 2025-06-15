@@ -25,11 +25,13 @@ To obtain a local copy of the repository and set it up, please follow these step
      dotnet add package System.DirectoryServices --version 8.0.0
      dotnet add package System.DirectoryServices.AccountManagement --version 8.0.0
      ```
-  4. Ensure the local path for both exporting and analyzing:
-     
-     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/ExportMessageLog.cs#L21
-     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/AnalyzeMessageLog.cs#L14
-     https://github.com/sultanjke/log-analyzer/blob/6c7ad862ad7d73fb98817e7fedfdbabaec4b43e9/AnalyzeMessageLog.cs#L75
+  4. Ensure the local path for both exporting and analyzing, as well as the API:
+
+     https://github.com/sultanjke/log-analyzer/blob/85d25ae50bc0f28b9368b72237fa188d2d44dd65/ExportMessageLog.cs#L11
+     https://github.com/sultanjke/log-analyzer/blob/85d25ae50bc0f28b9368b72237fa188d2d44dd65/ExportMessageLog.cs#L19
+     https://github.com/sultanjke/log-analyzer/blob/85d25ae50bc0f28b9368b72237fa188d2d44dd65/ExportMessageLog.cs#L21
+     https://github.com/sultanjke/log-analyzer/blob/85d25ae50bc0f28b9368b72237fa188d2d44dd65/AnalyzeMessageLog.cs#L14
+     https://github.com/sultanjke/log-analyzer/blob/85d25ae50bc0f28b9368b72237fa188d2d44dd65/AnalyzeMessageLog.cs#L75
      
   3. Run the Project:
      ```
